@@ -1,0 +1,74 @@
+.home {
+    background-color: transparent;
+    height: 30rem;
+    text-align: center;
+    color: $color-tertiary;
+    margin: 6rem 0 3rem 0;
+    position: relative;
+
+    &::after {
+        content: "";
+        filter: brightness(50%);
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;
+        background: url("/img/bg-forest.jpg") center/cover no-repeat fixed;
+    }
+
+    &__text--wrap {
+        margin-top: 8rem;
+
+        @media screen and (max-width: $bp-large) {
+            margin-top: 12rem;
+        }
+    }
+
+    &__full-name {
+        color: $color-primary;
+        border-bottom: 0.4rem solid $color-tertiary;
+        text-decoration: none;
+
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+
+    &__title {
+        margin: 0.5rem;
+        font-weight: normal;
+        font-size: 2rem;
+
+        @media screen and (min-width: $bp-medium) and (max-width: $bp-large) {
+            font-size: 2.5rem;
+        }
+
+        @media screen and (min-width: $bp-large) {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+    }
+
+    &__subtitle {
+        color: $color-tertiary;
+        text-transform: none;
+        font-size: 1.5rem;
+        font-weight: normal;
+        margin: 0.5rem;
+
+
+
+        @media screen and (min-width: $bp-medium) and (max-width: $bp-large) {
+            font-size: 2rem;
+
+        }
+
+        @media screen and (min-width: $bp-large) {
+            font-size: 2.5rem;
+            font-weight: normal;
+
+        }
+    }
+}

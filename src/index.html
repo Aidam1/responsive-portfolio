@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <a href="#home" class="navbar__logo">A<span class="navbar__logo--green-letters">Zn</span></a>
+        <div class="navbar__burger">
+            <img src="/img/menu.png" alt="menu">
+        </div>
+        <a href="#home" class="navbar__item">Home</a>
+        <a href="#skills" class="navbar__item">Skills</a>
+        <a href="#portfolio" class="navbar__item">Portfolio</a>
+        <a href="#about" class="navbar__item">About me</a>
+        <a href="#contact" class="navbar__item">Contact</a>
+    </nav>
+
+    <section id="home" class="home">
+        <div class="home__text--wrap">
+            <h1 class="home__title">Hi, I am <a href="#about" class="home__full-name">Adam Znamenáček.</a></h1>
+            <h2 class="home__subtitle">I'm a full-stack Web Developer.</h2>
+        </div>
+    </section>
+
+    <section id="product" class="product">
+        <p class="product__text">Let's work together to make <strong class="product__text--strong">your product stand
+                out</strong>. I create beautiful and functional
+            websites. I work with
+            my clients step by step <strong>from the idea stage until the fully functioning web application.</strong>
+        </p>
+        <div class="product__circles--wrap">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        <div class="product__blocks--wrap">
+            <div class="block">
+                <h3 class="block__heading">Discover</h3>
+                <p class="block__text">Tell me about your project and we brainstorm together the features to create a
+                    plat for your product
+                    to
+                    launch.</p>
+            </div>
+            <div class="block">
+                <h3 class="block__heading">Design</h3>
+                <p class="block__text">We desing the wireframe and agree together how to create the best experience for
+                    your users to
+                    present
+                    your brand.</p>
+            </div>
+            <div class="block">
+                <h3 class="block__heading">Deploy</h3>
+                <p class="block__text">We prototype and develop your product. We work together intensily to incorporate
+                    your feedback.</p>
+            </div>
+            <div class="block">
+                <h3 class="block__heading">Be ready</h3>
+                <p class="block__text">We deploy your product and now your website is ready to get the traction. Get out
+                    there and grow your
+                    audience.</p>
+
+
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="skills" class="skills">
+        <h2 class="skills__heading">My skills</h2>
+        <div class="skills__graph--wrap">
+            <div class="graph">
+                <div class="graph__lang-name">HTML</div>
+                <div class="graph__progress">
+                    <div class="graph__progressbar" id="html"></div>
+                    <div class="graph__percentage">80%</div>
+
+                </div>
+            </div>
+            <div class="graph">
+                <div class="graph__lang-name">CSS, Sass</div>
+                <div class="graph__progress">
+                    <div class="graph__progressbar" id="css"></div>
+                    <div class="graph__percentage">80%</div>
+
+                </div>
+            </div>
+            <div class="graph">
+                <div class="graph__lang-name">JavaScript</div>
+                <div class="graph__progress">
+                    <div class="graph__progressbar" id="javascript"></div>
+                    <div class="graph__percentage">70%</div>
+
+                </div>
+
+            </div>
+            <div class="graph">
+                <div class="graph__lang-name">React</div>
+                <div class="graph__progress">
+                    <div class="graph__progressbar" id="react"></div>
+
+                    <div class="graph__percentage">60%</div>
+                </div>
+            </div>
+            <div class="graph">
+                <div class="graph__lang-name">jQuery</div>
+                <div class="graph__progress">
+                    <div class="graph__progressbar" id="jquery"></div>
+
+                    <div class="graph__percentage">70%</div>
+                </div>
+
+            </div>
+            <div class="graph">
+                <div class="graph__lang-name">PHP</div>
+                <div class="graph__progress">
+                    <div class="graph__progressbar" id="php"></div>
+
+                    <div class="graph__percentage">60%
+                    </div>
+                </div>
+            </div>
+            <div class="graph">
+                <div class="graph__lang-name">Laravel</div>
+                <div class="graph__progress">
+                    <div class="graph__progressbar" id="laravel"></div>
+
+                    <div class="graph__percentage">
+                        60%
+                    </div>
+                </div>
+            </div>
+            <div class="graph">
+                <div class="graph__lang-name">UX</div>
+                <div class="graph__progress">
+                    <div class="graph__progressbar" id="ux"></div>
+                    <div class="graph__percentage">50%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="portfolio__heading">My portfolio</h2>
+
+        <div class="projects--wrap">
+            <div class="project">
+                <img class="project__img" src="/img/code.jpg" alt="code">
+                <div class="project__text--wrap">
+                    <p class="project__text">Project 1 Lorem ipsum Lorem ipslor sit amet. placeat velit.</p>
+                    <p class="project__tech-stack"><strong>Tech stack: HTML, CSS, Sass</strong></p>
+                </div>
+            </div>
+            <div class="project">
+                <img class="project__img" src="/img/code.jpg" alt="code">
+                <div class="project__text--wrap">
+                    <p class="project__text">Project 2</p>
+                    <p class="project__tech-stack"><strong>Tech stack: HTML, CSS, Sass</strong></p>
+                </div>
+            </div>
+            <div class="project">
+                <img class="project__img" src="/img/code.jpg" alt="code">
+                <div class="project__text--wrap">
+                    <p class="project__text">Project 3<br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci debitis corrupti aut
+                        blanditiis molestiae. Impedit laborum ratione labore officiis?</p>
+                    <p class="project__tech-stack"><strong>Tech stack: HTML, CSS, Sass</strong></p>
+                </div>
+            </div>
+            <div class="project">
+                <img class="project__img" src="/img/code.jpg" alt="code">
+                <div class="project__text--wrap">
+                    <p class="project__text">Project 4 Lorem ipsum dolor sit s illo voluptates quisquam.</p>
+                    <p class="project__tech-stack"><strong>Tech stack: HTML, CSS, Sass</strong></p>
+                </div>
+            </div>
+            <div class="project">
+                <img class="project__img" src="/img/code.jpg" alt="code">
+                <div class="project__text--wrap">
+                    <p class="project__text">Project 5</p>
+                    <p class="project__tech-stack"><strong>Tech stack: HTML, CSS, Sass</strong></p>
+                </div>
+            </div>
+            <div class="project project--final">
+                <img class="project__img" src="/img/code.jpg" alt="code">
+                <div class="project__text--wrap">
+                    <p class="project__text">Project 6</p>
+                    <div class="project__btn btn-link">
+                        <a href="https://github.com/Aidam1">Explore</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+        <h2 class="about__heading">About me</h2>
+        <div class="about-me--wrap">
+            <img class="about-me__img" src="/img/profilepic.jpg" alt="profile picture">
+            <div class="about-me__text--wrap">
+                <p class="about-me__text"><strong>My name is Adam Znamenáček.</strong> I am a full-stack web developer
+                    and enjoy learning new
+                    technology trends.<strong>I am developing user interfaces in Javascript and React and backend of my
+                        projects in PHP and Laravel.</strong>
+                </p>
+                <p class="about-me__text">I am open to learning new technologies and enjoy working with people <span
+                        class="about-me__text--underline">
+                        who are as passionate about all web-related as me.
+                    </span>
+                </p>
+                <p class="about-me__text">I have worked for clients all across Europe, but currently I am based in
+                    Prague, Czech republic</p>
+                <p class="about-me__text">I like reading books and working out. If I'm not programming, you can also
+                    find me in the nature.</p>
+
+                <p class="about-me__text about-me__text--strong"><strong>Get in touch and let's do something great
+                        together.</strong></p>
+                <div class="about-me__btn btn-link">
+                    <a href="mailto:adam.znamenacek@gmail.com">Contact me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="find-me">
+        <h2 class="find-me__heading">Find me here</h2>
+        <div class="find-me__icons--wrap">
+            <a href="https://www.github.com/Aidam1" class="fa fa-github find-me__icon"></a>
+            <a href="https://www.linkedin.com/" class="fa fa-linkedin find-me__icon"></a>
+            <a href="https://www.instagram.com/" class="fa fa-instagram find-me__icon"></a>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="contact__heading">Contact me</h2>
+        <div class="input-form">
+            <input class="input-form__item" type="text" id="fname" name="fname" placeholder="First name *"><br>
+            <input class="input-form__item" type="text" id="lname" name="lname" placeholder="Last name *">
+            <input class="input-form__item" type="text" id="email" name="email" placeholder="Email *">
+            <input class="input-form__item" type="text" id="phone" name="phone" placeholder="Phone">
+            <div class="input-form__textarea--wrap">
+                <label class="input-form__textarea__label" for="message">My message *</label>
+                <textarea class="input-form__textarea" name="message" rows="8" cols="2"></textarea></di>
+            </div>
+            <input class="btn-submit" type="submit" value="Send my message">
+
+    </section>
+
+    <footer class="footer">
+        <div class="footer__line--wrap">
+            <div class="footer__line"></div>
+            <h2 class="footer__heading">Nice to meet you!</h2>
+            <div class="footer__line"></div>
+        </div>
+        <div class="footer__icons--wrap">
+            <a href="https://www.github.com/Aidam1" class="fa fa-github footer__icon"></a>
+            <a href="https://www.linkedin.com/" class="fa fa-linkedin footer__icon"></a>
+            <a href="https://www.instagram.com/" class="fa fa-instagram footer__icon"></a>
+        </div>
+        <p class="footer__copy">Copyright &copy;Adam Znamenáček 2020</p>
+    </footer>
+
+</body>
+
+</html>

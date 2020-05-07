@@ -1,0 +1,56 @@
+.contact {
+    background-color: $color-primary;
+    padding: 3rem 0;
+
+    &__heading {
+        color: $color-tertiary;
+
+    }
+}
+
+.input-form {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 80%;
+
+    &__item {
+        color: $color-tertiary;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid $color-tertiary;
+        width: 48%;
+        font-size: 1rem;
+        padding: 0.5rem 0;
+        margin: 1rem 0;
+
+        @media screen and (max-width: $bp-medium) {
+            width: 100%;
+
+        }
+
+        &::placeholder {
+            color: $color-tertiary;
+            opacity: 1;
+        }
+    }
+
+    &__textarea--wrap {
+        width: 100%;
+        color: $color-tertiary;
+    }
+
+    &__textarea {
+        border: none;
+        border-radius: 4px;
+        resize: none;
+        width: 100%;
+        padding: 0.25rem;
+
+        &__label {
+            display: inline-block;
+            padding: 0.5rem 0;
+        }
+    }
+}

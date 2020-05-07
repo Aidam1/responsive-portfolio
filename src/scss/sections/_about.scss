@@ -1,0 +1,56 @@
+.about {
+    background-color: $color-tertiary;
+    padding: 4rem 0 3rem 0;
+
+    &__heading {
+        margin: 0 0 1.5rem 0;
+    }
+}
+
+.about-me {
+    &--wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    &__img {
+        object-fit: cover;
+        border-radius: 50%;
+        height: 280px;
+        width: 280px;
+    }
+
+    &__text--wrap {
+        margin: 1rem 0 0 10%;
+        width: 50%;
+
+        @media screen and (max-width: $bp-large1) {
+            margin: 1.5rem;
+            width: 100%;
+        }
+    }
+
+    &__text {
+        margin: 1rem 0;
+
+        &--underline {
+            border-bottom: 0.25rem solid $color-primary;
+
+        }
+
+        &--strong {
+            margin: 1rem 0;
+            font-size: 1.25rem;
+
+            @media screen and (max-width: $bp-large1) {
+                text-align: center;
+            }
+        }
+    }
+
+    &__btn {
+        text-align: center;
+    }
+}

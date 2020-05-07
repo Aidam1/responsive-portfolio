@@ -1,0 +1,94 @@
+.skills {
+    margin: 5rem 0;
+
+    &__heading {
+        color: $color-primary;
+
+    }
+
+    &__graph--wrap {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+
+}
+
+
+.graph {
+    width: 70%;
+    margin: 0.25rem 0;
+    line-height: 2.25rem;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    font-size: 1.25rem;
+
+    @media screen and (max-width: $bp-large) {
+        width: 90%;
+
+    }
+
+    &__lang-name {
+        flex-basis: 15%;
+        min-width: 6rem;
+        text-align: center;
+        background-color: $color-secondary;
+        color: $color-tertiary;
+    }
+
+    &__progress {
+        background-color: $color-primary;
+        width: 100%;
+        color: #444;
+        background-color: $color-grey;
+        text-align: right;
+        display: flex;
+    }
+
+    &__progressbar {
+        background-color: $color-primary;
+        height: 2.25rem;
+    }
+
+    &__percentage {
+        flex-grow: 1;
+        padding-right: 1rem;
+    }
+}
+
+
+#html {
+    width: 80%;
+}
+
+#css {
+    width: 80%;
+}
+
+#javascript {
+    width: 70%;
+}
+
+#react {
+    width: 60%;
+}
+
+#jquery {
+    width: 70%;
+}
+
+#php {
+    width: 60%;
+}
+
+#laravel {
+    width: 60%;
+}
+
+#ux {
+    width: 50%;
+}

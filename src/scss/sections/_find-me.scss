@@ -1,0 +1,31 @@
+.find-me {
+    background-color: $color-secondary;
+    color: $color-tertiary;
+    padding: 3rem 0 3rem 0;
+
+    &__heading {
+        font-size: 2.5rem;
+    }
+
+    &__icons--wrap {
+        display: flex;
+        width: 80%;
+        font-size: 6rem;
+        margin: 2.5rem auto;
+        justify-content: space-around;
+
+        @media screen and (max-width: $bp-large) {
+            font-size: 4rem;
+        }
+    }
+
+    &__icon {
+        text-decoration: none;
+        color: $color-tertiary;
+
+        &:hover {
+            color: gray;
+
+        }
+    }
+}
